@@ -18,6 +18,7 @@ header{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    gap: 32px;
     width: 100vw;
     height: 80px;
     
@@ -55,15 +56,16 @@ h2{
 
 main {
     height: 80%;
-    
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
  
 }
 
 div{
     background-color: #FFF5;
-    width: 180px;
-    height: 200px;
+    width: 15vw;
+    height: 40vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,15 +75,25 @@ div{
 }
 
 div img{
-    width: 100px;
-    height: 100px;
+    width: 6vw;
+    height: 10vh;
 
    
 }
 
 div p{
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
+    margin-top: 100px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+ button{
+    width:10vw;
+    height: 5vh;
+    color: #284703;
+    background-color: #88B257;
+
+}
